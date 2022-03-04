@@ -1,0 +1,7 @@
+CREATE TABLE `dotdataset` (
+  `uname` varchar(45) NOT NULL,
+  `pid` varchar(45) DEFAULT NULL,
+  `xp` int(11) DEFAULT NULL,
+  `gold` int(11) DEFAULT NULL,
+  PRIMARY KEY (`uname`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
